@@ -40,7 +40,7 @@
         <nav id="main-nav">
             <ul>
                 <li><a href="#home"><span>Home</span></a></li>
-                <li><a href="#about"><span>About Me</span></a></li>
+                <li><a href="#about"><span>About Us</span></a></li>
                 <li><a href="#features"><span>Features</span></a></li>
                 <li><a href="#experience"><span>Experience</span></a></li>
                 <li><a href="#portfolio"><span>Portfolio</span></a></li>
@@ -57,7 +57,7 @@
                         <div class="div-menu">
                             <header class="cd-header">
                                 <div id="cd-logo">
-                                    <a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+                                    <a href="index.html"><img src="assets/images/" alt=""></a>
                                 </div>
                                 <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
                             </header>
@@ -67,8 +67,7 @@
                         <div class="home-wrapper">
                             <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
                                 <div class="home-content">
-                                    <h1>Calprix</h1>
-                                    <p>Financial Quick System Inc.</p>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -183,8 +182,8 @@
                                     <h4>Work Experience</h4>
 
                                     <div class="content-details content-border">
-                                        <h5>Mad Max Design</h5>
-                                        <h6>OCT 2013 - june 2014</h6>
+                                        <h5>Design</h5>
+                                        <h6>OCT 2017 - june 2018</h6>
                                         <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                                     </div>
 
@@ -200,11 +199,11 @@
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="experience-content">
 
-                                    <h4>Education</h4>
+                                    <h4>Benefits</h4>
 
                                     <div class="content-details content-border">
-                                        <h5>Maddison University</h5>
-                                        <h6>OCT 2013 - june 2014</h6>
+                                        <h5>Save money</h5>
+                                        <h6>Create credict</h6>
                                         <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                                     </div>
 
@@ -258,6 +257,12 @@
                                 <a href="assets/images/portfolio/pf4.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf4.jpg" alt="" /></a>
                             </div>
                         </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf5.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf5.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
 
 
                     </div>
