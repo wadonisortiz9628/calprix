@@ -43,8 +43,6 @@
                 <li><a href="#about"><span>About Us</span></a></li>
                 <li><a href="#features"><span>Features</span></a></li>
                 <li><a href="#experience"><span>Experience</span></a></li>
-                <li><a href="#portfolio"><span>Portfolio</span></a></li>
-                
             </ul>
             <a href="#0" class="cd-close-menu">Close<span></span></a>
         </nav>
@@ -56,9 +54,6 @@
                     <div class="row">
                         <div class="div-menu">
                             <header class="cd-header">
-                                <div id="cd-logo">
-                                    <a href="index.html"><img src="assets/images/" alt=""></a>
-                                </div>
                                 <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
                             </header>
                         </div>
@@ -67,7 +62,11 @@
                         <div class="home-wrapper">
                             <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
                                 <div class="home-content">
-                                    <p></p>
+                                    <div id="suscrib">
+                                        <div class="form-group">
+                                            <a type="submit" class="btn btn-default">Suscribete</a> <input type="text" class="form-control" placeholder="Name*">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -223,115 +222,10 @@
         </section>
 
         <!-- Sections -->
-        <section id="portfolio" class="sections">
-            <div class="container">
 
-                <div class="heading-content text-center">
-                    <h3>My Latest Works</h3>
-                    <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
-                </div>
-
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="portfolio-wrapper">
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf4.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf4.jpg" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf5.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf5.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="portfolio-wrapper2">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="portfolio-item width-img">
-                                <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div> <!-- /container -->       
-        </section>
 
         <!-- Sections -->
-        <section id="testimonial" class="lightbg">
-            <div class="container">
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="testimonial-wrapper sections4">
 
-                        <div class="col-md-5 col-sm-6 col-xs-12">
-                            <div class="testimonial-content text-left">
-
-                                <div class="testimonial-quote">
-                                    <i class="fa fa-quote-left"></i>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
-                                </div>
-
-                                <div class="singnature">
-                                    <img src="assets/images/signature.png" alt="Signature" />
-                                </div>
-
-                                <div class="regards-by">
-                                    <h5>Deniel Croft</h5>
-                                    <p>Creative Designer, Levy</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-7 col-sm-6 col-xs-12">
-                            <div class="profile-photo">
-                                <img src="assets/images/man2.png" alt="testimonial" />
-                            </div>
-                        </div>
-
-                    </div> 
-                </div>
-            </div> <!-- /container -->       
-        </section>
 
         <!-- Sections -->
         <section id="contact" class="contact">
