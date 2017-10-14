@@ -64,7 +64,8 @@
                                 <div class="home-content">
                                     <div id="suscrib">
                                         <div class="form-group">
-                                            <a type="submit" class="btn btn-default">Suscribete</a> <input type="text" class="form-control" placeholder="Name*">
+                                            <a type="submit" class="btn btn-danger">Suscribete</a>
+                                            <input type="text" class="form-control" placeholder="Correo">
                                         </div>
                                     </div>
                                 </div>
