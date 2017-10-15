@@ -42,7 +42,7 @@
                 <li><a href="#home"><span>Home</span></a></li>
                 <li><a href="#about"><span>About Us</span></a></li>
                 <li><a href="#features"><span>Features</span></a></li>
-                <li><a href="#experience"><span>Experience</span></a></li>
+                <li><a href="#contact"><span>Contac Us</span></a></li>
             </ul>
             <a href="#0" class="cd-close-menu">Close<span></span></a>
         </nav>
@@ -63,10 +63,10 @@
 
                         <div class="home-wrapper">
                             <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                <input type="text" class="form-control" placeholder="Correo" name="mail" method="post">
+                                <input type="text" class="form-control" placeholder="Correo" name="mail">
                             </div>
                             <div class="home-button">
-                                <a type="submit" class="btn btn-default">Suscribirse</a>
+                                <a type="submit" class="btn btn-default" name="sendMail" method="post" action="send_mail.php">Suscribirse</a>
                             </div>
                         </div>
                     </div>
@@ -168,57 +168,6 @@
         </section>
 
         <!-- Sections -->
-        <section id="experience" class="experience">
-            <div class="overlay sections">
-                <div class="container">
-                    <div class="row">
-                        <div class="experience-wrapper">
-
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="experience-content">
-
-                                    <h4>Work Experience</h4>
-
-                                    <div class="content-details content-border">
-                                        <h5>Design</h5>
-                                        <h6>OCT 2017 - june 2018</h6>
-                                        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>
-
-                                    <div class="content-details">
-                                        <h5>Crazy Design</h5>
-                                        <h6>OCT 2013 - june 2015</h6>
-                                        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="experience-content">
-
-                                    <h4>Benefits</h4>
-
-                                    <div class="content-details content-border">
-                                        <h5>Save money</h5>
-                                        <h6>Create credict</h6>
-                                        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>
-
-                                    <div class="content-details">
-                                        <h5>Max Design & Art Institute</h5>
-                                        <h6>OCT 2013 - june 2015</h6>
-                                        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>	
-                    </div>
-                </div>
-            </div>       
-        </section>
 
         <!-- Sections -->
 
