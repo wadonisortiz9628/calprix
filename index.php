@@ -63,7 +63,7 @@
 
                         <div class="home-wrapper">
                             <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                <input type="text" class="form-control" placeholder="Correo">
+                                <input type="text" class="form-control" placeholder="Correo" name="mail" method="post">
                             </div>
                             <div class="home-button">
                                 <a type="submit" class="btn btn-default">Suscribirse</a>

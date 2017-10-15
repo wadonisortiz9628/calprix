@@ -479,7 +479,7 @@ textarea:-ms-input-placeholder
     left: -120px;
 }
 
-    home-header-text p{
+div.home-header-text p{
     font-size: 20px;
     top:200px;
 }
