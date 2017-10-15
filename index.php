@@ -2,7 +2,8 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -58,16 +59,17 @@
                             </header>
                         </div>
                         <div class="home-header-text">
-                            <p>Suscribete ahora y obten un 0% de interes fijo en tu compra inicial</p>
+                            <p>*Suscribete ahora y obten <strong>0%</strong> de interes fijo en tu compra inicial</p>
                         </div>
-
                         <div class="home-wrapper">
-                            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                <input type="text" class="form-control" placeholder="Correo" name="mail">
-                            </div>
-                            <div class="home-button">
-                                <a type="submit" class="btn btn-default" name="sendMail" method="post" action="send_mail.php">Suscribirse</a>
-                            </div>
+                           <form method="post" action="sent.php">
+                                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                                    <input type="text" class="form-control" placeholder="Correo" id="mail" name="mail" maxlength="200">
+                                </div>
+                                <div class="home-button">
+                                    <input type="submit" class="btn btn-default" name="sendMail" id="sendMail" value="Suscribirse">
+                                </div>
+                           </form>
                         </div>
                     </div>
                 </div>
@@ -90,8 +92,23 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="about-content text-left">
                                 <h4>Hi, Calprix is a buy loan experience that you will never forget.</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
-                                <p> Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
+                                <p>
+                                    <li>With Calprix you can take loans in an easy and personal way.</li>
+                                    <li>You choose the time</li>
+                                    <li>Skip waitting time and long rows</li>
+                                    <li>we offer the lowest market rate</li>
+                                    <li>You select the partner bank</li>
+                                    <li>You select the payment way</li>
+                                    <li>Comercial centers keep running in a tecnological enviroment</li>
+                                    <li>Banks have a filter client wallet to offer them new products</li>
+                                    <li>Banks avoid paying unnecesary emploees</li>
+                                    <li>Banks save money in analizing time</li>
+                                    <li>Banks save money in documentation</li>
+                                    <li>Banks save money in outlay</li>
+                                    <li>Banks avoid all departments involved on thouse processes</li>
+                                </p>
+                                <p>People will give themselve their own service!!!</p>
+                                <p>Calprix will solve many problem, confidential will be our due.</p>
                                 <a href="#" class="btn btn-default">Hire Me !</a>
                             </div>
                         </div>
@@ -204,7 +221,7 @@
                                             <textarea rows="9" class="form-control" placeholder="Message"></textarea>
                                         </div>
                                         <div class="massage-button">
-                                            <a type="submit" class="btn btn-default">Sen Massage</a>
+                                            <a type="submit" class="btn btn-default">Send Massage</a>
                                         </div>
                                     </form>
 
@@ -216,7 +233,7 @@
 
                                     <div class="contact-details">
                                         <h4>Address</h4>
-                                        <p>Undefine</p>
+                                        <p>We haven't yet, but we gonna be stablish in all stores!!!</p>
                                     </div>
 
                                     <div class="contact-details">
@@ -227,7 +244,7 @@
 
                                     <div class="contact-details">
                                         <h4>Web</h4>
-                                        <p>Mail: equipo@calprix.com</p>
+                                        <p>Mail: team@calprix.com</p>
                                         <p>Website: www.calprix.com/</p>
                                     </div>
 
