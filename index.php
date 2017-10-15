@@ -57,18 +57,16 @@
                                 <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
                             </header>
                         </div>
-
+                        <div class="home-header-text">
+                            <p>Suscribete ahora y obten un 0% de interes fijo en tu compra inicial</p>
+                        </div>
 
                         <div class="home-wrapper">
                             <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                <div class="home-content">
-                                    <div id="suscrib">
-                                        <div class="form-group">
-                                            <a type="submit" class="btn btn-danger">Suscribete</a>
-                                            <input type="text" class="form-control" placeholder="Correo">
-                                        </div>
-                                    </div>
-                                </div>
+                                <input type="text" class="form-control" placeholder="Correo">
+                            </div>
+                            <div class="home-button">
+                                <a type="submit" class="btn btn-default">Suscribirse</a>
                             </div>
                         </div>
                     </div>

@@ -426,7 +426,7 @@ textarea::-moz-input-placeholder
     font-size: 12px;
 
 }
-textarea::-ms-input-placeholder
+textarea:-ms-input-placeholder
 {
     color: #c3bec2;
     font-size: 12px;
@@ -452,6 +452,8 @@ textarea::-ms-input-placeholder
     padding: 10px 60px;
     font-size: 16px;
     transition:.3s ease-in-out;
+    margin-top: 2px;
+    margin-right: 80px;
 }
 .btn-default:active, .btn-default:hover  {
     background:#002453;
@@ -472,24 +474,14 @@ textarea::-ms-input-placeholder
     overflow: hidden;
 }
 .home-wrapper{
-    margin-top:240px;
-    color:#fff;
+    margin-top:450px;
+    position: relative;
+    left: -120px;
 }
-.home-content h1{
-    font-size:65px;
-    text-transform:uppercase;
-    color:#fff;
-    font-weight:900;
-    font-family: "Raleway Webfont";
-    letter-spacing:12px;
-    border-top:2px solid #ecf0f2;
-    border-bottom:2px solid #ecf0f2;
-    padding:20px 0;
-} 
-.home-content p{
-    font-size:25px;
-    margin-top:20px;
-    color:#ecf0f2;
+
+    home-header-text p{
+    font-size: 20px;
+    top:200px;
 }
 
 /*For About Us Section */
