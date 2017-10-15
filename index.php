@@ -203,10 +203,9 @@
                                         <div class="form-group">
                                             <textarea rows="9" class="form-control" placeholder="Message"></textarea>
                                         </div>
-
-
-                                        <a type="submit" class="btn btn-default">Now more</a>
-
+                                        <div class="massage-button">
+                                            <a type="submit" class="btn btn-default">Sen Massage</a>
+                                        </div>
                                     </form>
 
                                 </div>
@@ -217,19 +216,19 @@
 
                                     <div class="contact-details">
                                         <h4>Address</h4>
-                                        <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                                        <p>Undefine</p>
                                     </div>
 
                                     <div class="contact-details">
-                                        <h4>Phone</h4>
-                                        <p>+880 1912 109670</p>
-                                        <p>+880 1670 863946</p>
+                                        <h4>Cel-Phone</h4>
+                                        <p>849 261 4346 Walkin</p>
+                                        <p>809 876 3378 Luis</p>
                                     </div>
 
                                     <div class="contact-details">
                                         <h4>Web</h4>
-                                        <p>Mail: quicksayed@gmail.com</p>
-                                        <p>Website: dribbble.com/alisayed</p>
+                                        <p>Mail: equipo@calprix.com</p>
+                                        <p>Website: www.calprix.com/</p>
                                     </div>
 
                                 </div>
@@ -252,11 +251,12 @@
                             <div class="social">
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-behance"></i></a>
-                                <a href="#"><i class="fa dribbble fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa fa-bank"></i></a>
                             </div>
 
-                            <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
+                            <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Calprix Team </a> 2017. All rights reserved.</p>
 
                         </div>
                     </div>

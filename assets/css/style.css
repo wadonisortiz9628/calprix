@@ -420,12 +420,7 @@ textarea::-webkit-input-placeholder
     font-size: 12px;
 
 }
-textarea::-moz-input-placeholder
-{
-    color: #c3bec2;
-    font-size: 12px;
 
-}
 textarea:-ms-input-placeholder
 {
     color: #c3bec2;
@@ -458,6 +453,9 @@ textarea:-ms-input-placeholder
 .btn-default:active, .btn-default:hover  {
     background:#002453;
     color:#fff;
+}
+.massage-button{
+    margin-right: 50px;
 }
 
 /*For Menu Section*/
