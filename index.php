@@ -56,9 +56,6 @@
                     <div class="row">
                         <div class="div-menu">
                             <header class="cd-header">
-                                <div id="cd-logo">
-                                    <a href="index.html"><img src="assets/images/" alt=""></a>
-                                </div>
                                 <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
                             </header>
                         </div>
@@ -66,8 +63,8 @@
 
                         <div class="home-wrapper">
                             <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                <div class="home-content">
-                                    <p></p>
+                                <div class="input-correo">
+                                    <input type="text" class="form-control" placeholder="Correo">
                                 </div>
                             </div>
                         </div>
