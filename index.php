@@ -2,11 +2,12 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Calprix</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -28,6 +29,9 @@
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modalmanager.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -42,9 +46,7 @@
                 <li><a href="#home"><span>Home</span></a></li>
                 <li><a href="#about"><span>About Us</span></a></li>
                 <li><a href="#features"><span>Features</span></a></li>
-                <li><a href="#experience"><span>Experience</span></a></li>
-                <li><a href="#portfolio"><span>Portfolio</span></a></li>
-                
+                <li><a href="#contact"><span>Contac Us</span></a></li>
             </ul>
             <a href="#0" class="cd-close-menu">Close<span></span></a>
         </nav>
@@ -59,14 +61,15 @@
                                 <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
                             </header>
                         </div>
-
-
                         <div class="home-wrapper">
-                            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                <div class="input-correo">
-                                    <input type="text" class="form-control" placeholder="Correo">
+                           <form method="post" action="sent.php">
+                                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                                    <input type="text" class="form-control" placeholder="Correo" id="mail" name="mail" maxlength="200">
                                 </div>
-                            </div>
+                                <div class="home-button">
+                                    <input type="submit" class="btn btn-default" name="sendMail" id="sendMail" value="Suscribirse">
+                                </div>
+                           </form>
                         </div>
                     </div>
                 </div>
@@ -86,18 +89,33 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="about-content text-left">
-                                <h4>Hi, Calprix is a buy loan experience that you will never forget.</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
-                                <p> Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
+                        <!-- <div class="col-md-6 col-sm-6 col-xs-12"> -->
+                            <div class="about-content text-left page2">
+                                <h4>Hi, Calprix the experience that you will never forget.</h4>
+                                <p>
+                                    <li>With Calprix you can take loans in an easy and personal way.</li>
+                                    <li>You choose the time</li>
+                                    <li>Skip waitting time and long rows</li>
+                                    <li>we offer the lowest market rate</li>
+                                    <li>You select the partner bank</li>
+                                    <li>You select the payment way</li>
+                                    <li>Comercial centers keep running in a tecnological enviroment</li>
+                                    <li>Banks have a filter client wallet to offer them new products</li>
+                                    <li>Banks avoid paying unnecesary emploees</li>
+                                    <li>Banks save money in analizing time</li>
+                                    <li>Banks save money in documentation</li>
+                                    <li>Banks save money in outlay</li>
+                                    <li>Banks avoid all departments involved on thouse processes</li>
+                                </p>
+                                <p>People will give themselve their own service!!!</p>
+                                <p>Calprix will solve many problem, confidential will be our due.</p>
                                 <a href="#" class="btn btn-default">Hire Me !</a>
                             </div>
-                        </div>
+                        <!-- </div> -->
 
                     </div>
-                </div>	
-            </div> <!-- /container -->       
+                </div>
+            </div> <!-- /container -->
         </section>
 
         <!-- Sections -->
@@ -163,172 +181,16 @@
 
                     </div>
                 </div>
-            </div> <!-- /container -->       
+            </div> <!-- /container -->
         </section>
 
         <!-- Sections -->
-        <section id="experience" class="experience">
-            <div class="overlay sections">
-                <div class="container">
-                    <div class="row">
-                        <div class="experience-wrapper">
-
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="experience-content">
-
-                                    <h4>Work Experience</h4>
-
-                                    <div class="content-details content-border">
-                                        <h5>Design</h5>
-                                        <h6>OCT 2017 - june 2018</h6>
-                                        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>
-
-                                    <div class="content-details">
-                                        <h5>Crazy Design</h5>
-                                        <h6>OCT 2013 - june 2015</h6>
-                                        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="experience-content">
-
-                                    <h4>Benefits</h4>
-
-                                    <div class="content-details content-border">
-                                        <h5>Save money</h5>
-                                        <h6>Create credict</h6>
-                                        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>
-
-                                    <div class="content-details">
-                                        <h5>Max Design & Art Institute</h5>
-                                        <h6>OCT 2013 - june 2015</h6>
-                                        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>	
-                    </div>
-                </div>
-            </div>       
-        </section>
 
         <!-- Sections -->
-        <section id="portfolio" class="sections">
-            <div class="container">
 
-                <div class="heading-content text-center">
-                    <h3>My Latest Works</h3>
-                    <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
-                </div>
-
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="portfolio-wrapper">
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf4.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf4.jpg" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf5.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf5.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="portfolio-wrapper2">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="portfolio-item width-img">
-                                <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="portfolio-item">
-                                <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div> <!-- /container -->       
-        </section>
 
         <!-- Sections -->
-        <section id="testimonial" class="lightbg">
-            <div class="container">
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="testimonial-wrapper sections4">
 
-                        <div class="col-md-5 col-sm-6 col-xs-12">
-                            <div class="testimonial-content text-left">
-
-                                <div class="testimonial-quote">
-                                    <i class="fa fa-quote-left"></i>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
-                                </div>
-
-                                <div class="singnature">
-                                    <img src="assets/images/signature.png" alt="Signature" />
-                                </div>
-
-                                <div class="regards-by">
-                                    <h5>Deniel Croft</h5>
-                                    <p>Creative Designer, Levy</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-7 col-sm-6 col-xs-12">
-                            <div class="profile-photo">
-                                <img src="assets/images/man2.png" alt="testimonial" />
-                            </div>
-                        </div>
-
-                    </div> 
-                </div>
-            </div> <!-- /container -->       
-        </section>
 
         <!-- Sections -->
         <section id="contact" class="contact">
@@ -358,10 +220,9 @@
                                         <div class="form-group">
                                             <textarea rows="9" class="form-control" placeholder="Message"></textarea>
                                         </div>
-
-
-                                        <a type="submit" class="btn btn-default">Now more</a>
-
+                                        <div class="massage-button">
+                                            <a type="submit" class="btn btn-default">Send Massage</a>
+                                        </div>
                                     </form>
 
                                 </div>
@@ -372,28 +233,28 @@
 
                                     <div class="contact-details">
                                         <h4>Address</h4>
-                                        <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                                        <p>We haven't yet, but we gonna be stablish in all stores!!!</p>
                                     </div>
 
                                     <div class="contact-details">
-                                        <h4>Phone</h4>
-                                        <p>+880 1912 109670</p>
-                                        <p>+880 1670 863946</p>
+                                        <h4>Cel-Phone</h4>
+                                        <p>849 261 4346 Walkin</p>
+                                        <p>809 876 3378 Luis</p>
                                     </div>
 
                                     <div class="contact-details">
                                         <h4>Web</h4>
-                                        <p>Mail: quicksayed@gmail.com</p>
-                                        <p>Website: dribbble.com/alisayed</p>
+                                        <p>Mail: team@calprix.com</p>
+                                        <p>Website: www.calprix.com/</p>
                                     </div>
 
                                 </div>
                             </div>
 
-                        </div>	
+                        </div>
                     </div>
                 </div>
-            </div>       
+            </div>
         </section>
 
 
@@ -407,11 +268,12 @@
                             <div class="social">
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-behance"></i></a>
-                                <a href="#"><i class="fa dribbble fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa fa-bank"></i></a>
                             </div>
 
-                            <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
+                            <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Calprix Team </a> 2017. All rights reserved.</p>
 
                         </div>
                     </div>
