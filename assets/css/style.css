@@ -20,7 +20,7 @@ body {
     font-weight: 300;
 }
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 .preloader {
     position: fixed;
@@ -48,6 +48,17 @@ PRE LOADER
     background-size: cover;
     margin: -20px 0 0 -20px;
 }
+.container{
+  margin-top: -20;
+}
+.about-photo img{
+  width: 400px;
+}
+btn{
+  margin-bottom: 30px;
+}
+
+
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -229,7 +240,6 @@ Section
     color:#fff;
 }
 .sections3{
-    padding-top: 100px;
     position: relative;
     overflow: hidden;
 }
@@ -724,13 +734,13 @@ div.home-header-text p{
 }
 .main-footer p{
     color:#c3bec2;
-    font-size:12px;	
+    font-size:12px;
 }
 
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -748,9 +758,9 @@ Modules - reusable parts of our design
     clear: both;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 .home-main-content {

@@ -3,11 +3,11 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Calprix</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -29,6 +29,9 @@
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modalmanager.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -58,9 +61,6 @@
                                 <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
                             </header>
                         </div>
-                        <div class="home-header-text">
-                            <p>*Suscribete ahora y obten <strong>0%</strong> de interes fijo en tu compra inicial</p>
-                        </div>
                         <div class="home-wrapper">
                            <form method="post" action="sent.php">
                                 <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
@@ -89,9 +89,9 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="about-content text-left">
-                                <h4>Hi, Calprix is a buy loan experience that you will never forget.</h4>
+                        <!-- <div class="col-md-6 col-sm-6 col-xs-12"> -->
+                            <div class="about-content text-left page2">
+                                <h4>Hi, Calprix the experience that you will never forget.</h4>
                                 <p>
                                     <li>With Calprix you can take loans in an easy and personal way.</li>
                                     <li>You choose the time</li>
@@ -111,11 +111,11 @@
                                 <p>Calprix will solve many problem, confidential will be our due.</p>
                                 <a href="#" class="btn btn-default">Hire Me !</a>
                             </div>
-                        </div>
+                        <!-- </div> -->
 
                     </div>
-                </div>	
-            </div> <!-- /container -->       
+                </div>
+            </div> <!-- /container -->
         </section>
 
         <!-- Sections -->
@@ -181,7 +181,7 @@
 
                     </div>
                 </div>
-            </div> <!-- /container -->       
+            </div> <!-- /container -->
         </section>
 
         <!-- Sections -->
@@ -251,10 +251,10 @@
                                 </div>
                             </div>
 
-                        </div>	
+                        </div>
                     </div>
                 </div>
-            </div>       
+            </div>
         </section>
 
 
