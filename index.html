@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+
+	<!-- Documentatio from FULL PAGE JS-->
+
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+
+	<title>Calprix Page</title>
+
+															<!--SECCION DE ESTILOS -->
+
+	<style type="text/css">
+		 
+	*{
+		margin: 0;
+		padding: 0;
+		background: rgba(214, 224, 177, 0.85);
+	}
+	.container{
+	}
+	h1{
+		margin-left: 44%;
+		margin-top: 300px;
+		font-size: 50px;
+		color: rgb(104, 121, 84);
+		position: relative;
+		float: left;
+	
+
+	}
+	h2{
+		margin-left: 45.5%;
+		padding-top: 5px;
+		font-size: 25px;
+		color: rgb(104, 121, 84);
+		float: left;
+		
+	}
+
+	</style>											 <!--FIN DE SECCION DE ESTILOS-->
+
+
+																<!--SECCION DE JS-->
+	<script type="text/javascript">
+			$(document).ready(function() {
+		$('#fullpage').fullpage({
+		sectionsColor : ['#fff'],
+		css3:true,
+          
+	        });
+		});
+
+	</script>
+</head>
+<body>	
+	<div class="container">
+		<section class="Home">
+					<p id="Text1"><h1>CALPRIX</h1></p>
+					<p id="Text2"><h2>Comming soon...</h2></p>
+		</section>
+	</div>
+
+	
+</body>
+</html>
